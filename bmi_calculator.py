@@ -4,7 +4,7 @@ import msvcrt
 def calculate_bmi():
     #variable used to quit program after you've calculated the BMI
     quit_condition = ''
-    #Formatting print statements
+    #Print statements for formatting output log
     print('*******************************************************************')
     print(' ')
     print("\t" + "Welcome to Tyler's BMI calculator!")
@@ -42,7 +42,7 @@ def calculate_bmi():
     #uses variable from if statement in concatenated statement
     print("A doctor would say" + doctor_would_say)
     print(' ')
-    #looping to for a condition to end program
+    #looping through condition to end program if quit_condition changes
     while quit_condition == '':
         print('Press any key to end this application...')
         #If any key is pressed, the while loop becomes false and the application closes
